@@ -1,0 +1,24 @@
+{
+  "name": "traveling-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannahHannah129/traveling-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannahHannah129/traveling-site/issues"
+  },
+  "homepage": "https://github.com/HannahHannah129/traveling-site#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
