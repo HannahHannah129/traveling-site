@@ -1,0 +1,14 @@
+!//Mobilerist design //
+
+Design around a smaller screen first 
+forces to PRIORITIZE conent
+anitcotpate most common user actions ( due to lower attentionspan on mobilephone)
+
+
+no valid exuse to NOT make any website a moblie fist website !
+
+
+
+!//MIXINS
+ define a Mixinfile with screen width variables. 
+ fe . atSmall atLarge at Medium ...etc.
