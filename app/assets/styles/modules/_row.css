@@ -2,12 +2,29 @@
     
     @mixin clearfix;
     
+    
+    &--t-padding{
+       padding-top: 80px;
+        
+    }
+    
     &--gutters{
         padding-right: -65px;
     }
     
+    &--gutters-small{
+        margin-right: -45px;
+        
+    }
+    
+    
     &--gutters-large{
         margin-right: -100px;
+        
+    }
+    
+      &--gutters-small > div{
+        margin-right: 45px;
         
     }
     
@@ -29,7 +46,7 @@
     
     @mixin atMedium {
         
-           &__b-margin-until-medium {
+        &__b-margin-until-medium {
         
         margin-bottom: 0;
     }
@@ -58,10 +75,63 @@
         float:left;
         width:66.66%;
     }
-        &--medium-8--larger{
+        &--medium-8--smaller{
             width: 63%;
         } 
     }
     
+    
+ @mixin atLarge {
+        
+        &__b-margin-until-large {
+        
+        margin-bottom: 0;
+    }
+        
+        
+         &__large-4{
+        float:left;
+        width:33.33%;
+    }
+        
+        &__large-4--larger{
+            width: 37%;
+        }
+        
+        
+            &__large-6{
+        float:left;
+        width:50%;
+    }
+        
+        
+        
+        
+        
+    &--large-8{
+        float:left;
+        width:66.66%;
+    }
+        &--large-8--smaller{
+            width: 63%;
+        } 
+    }
+    
+    /*Begin Equal Height Rules*/
+    
+     /*will equalise height of white testimonial columns*/
+    
+    &--equal-height-at-medium{
+        @mixin atMedium{
+            display:flex;
+        }
+        
+        & > div {
+            float:none;
+            display:flex;
+            
+        }
+        
+    }
     
 }
