@@ -6,6 +6,8 @@ module.exports = {
         filename: 'App.js',
         path: path.resolve(__dirname, './app/temp/scripts')
     } 
+
+
 };
 
 
