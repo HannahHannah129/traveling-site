@@ -42,14 +42,18 @@
         /* following sector will target the logo only when the dark selector is being used! */
         
         .site-header--dark & {
-         transform: scale(.45);
+         transform: scale(.57);
         }
         
     }
   }
 
     &__logo__graphic {
-        /* puts the original text to the background: */
+        
+         text-indent: -9999px;
+        
+        /* Misstaken code ? 
+         puts the original text to the background: 
         text-align: center;
         color: #FFF;
         font-size: 170%;
@@ -57,12 +61,14 @@
         
         
           &__big {
-        /* puts the original text to the background: */
+         puts the original text to the background: 
         text-align: center;
         color: #FFF;
         font-size: 190%;
        
     }
+     */
+        
     }
     
 

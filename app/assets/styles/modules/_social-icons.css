@@ -1,0 +1,30 @@
+.social-icons{
+    text-align: center;
+   
+    
+    &__icon {
+        background-color: $mainOrange;
+        display: inline-block;
+        margin: 0 5px 5px 5px;
+        width: 33%;
+        height: 72px;
+        position: relative;
+        
+        @mixin atSmall {
+           width: 72px;
+           margin: 0 5px;
+        }
+        
+        
+        
+        .icon {
+          display: block;
+          position: absolute;
+         /* top left will push icon to 50 percent left top (50%))margin than transform: translate(-50%) will push it back HALF of prioror Value!(half of 50%)  */
+          top:50%;
+          left:50%;
+          transform: translate(-50%,-50%);
+          
+        }
+    } 
+}
