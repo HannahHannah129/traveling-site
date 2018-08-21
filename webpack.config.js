@@ -1,11 +1,15 @@
 const path = require('path');
  
 module.exports = {
-    entry: './app/assets/scripts/App.js',
+    entry: {
+        App: './app/assets/scripts/App.js',
+        Vendor: './app/assets/scripts/Vendor.js'
+    },
     output: {
-        filename: 'App.js',
+    // [name].js instead of setting it to its actual value fe (App.js) will keep the name of the js file dynamic ! 
+        filename: '[name].js',
         path: path.resolve(__dirname, './app/temp/scripts')
-    } 
+    } ,
 
 
 };

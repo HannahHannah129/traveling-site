@@ -11,11 +11,11 @@
     
     &__icon{
         position: absolute;
-        left:0 auto;
+        left:20px;
         
           @mixin atSmall{
       position: absolute;
-      left: 0;
+      left: 5px;
     }
      
         

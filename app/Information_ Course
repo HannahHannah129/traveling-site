@@ -12,9 +12,12 @@ no valid exuse to NOT make any website a moblie fist website !
 !//MIXINS
  define a Mixinfile with screen width variables. 
  fe . atSmall atLarge at Medium ...etc.
+ 
 
 
 //Lazy Loader// 
 Idea is: only load Data when it will be necessary!
 Will define how and when the browser is loading data!
 // if not applied browser will load ALL data at initial siteload!
+
+-- when it comes to independet packages as Lazysides it is best to IMPORT them in a SEPERTATE JSfile ! 
