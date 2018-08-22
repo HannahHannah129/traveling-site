@@ -29,7 +29,7 @@
     
     
     
-    &__description{
+    &__description {
         text-align: center;
         font-size: 1.3rem;
         color:$mainBlue;

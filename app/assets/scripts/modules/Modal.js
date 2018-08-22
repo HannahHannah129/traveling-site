@@ -10,7 +10,6 @@ class Modal {
 
   events() {
     // clicking the open modal button
-    //with bind ! the current jeyword will keep IT S VALUE!
     this.openModalButton.click(this.openModal.bind(this));
 
     // clicking the x close modal button
@@ -18,17 +17,13 @@ class Modal {
 
     // pushes any key
     $(document).keyup(this.keyPressHandler.bind(this));
-
   }
-    
-// within the event see which key was presst (only if it is the escape key close the modal!)
-keyPressHandler(e) {
-    if (e.keayCode == 27){
-        this.closeModal();
-    }
-}
 
- 
+  keyPressHandler(e) {
+    if (e.keyCode == 27) {
+      this.closeModal();
+    }
+  }
 
   openModal() {
     this.modal.addClass("modal--is-visible");
